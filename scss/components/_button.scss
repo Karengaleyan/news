@@ -1,0 +1,16 @@
+.btn {
+   background: #10BD99;
+   border-radius: 8px;
+   color: black;
+   height: 56px;
+   padding: 0 24px;
+   border: none;
+   font-size: 16px;
+   transition: background-color .2s ease-in;
+   display: inline-flex;
+   align-items: center;
+
+   &:hover {
+      background: #33C599;
+   }
+}

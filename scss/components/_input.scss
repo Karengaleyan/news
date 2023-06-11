@@ -1,0 +1,36 @@
+input,
+textarea {
+   border: transparent;
+}
+
+.form-input {
+   border: 1px solid #D0D3D9;
+   border-radius: 8px;
+   width: 100%;
+   padding-left: 12px;
+   transition: border .2s ease-in, box-shadow .2s ease-in;
+   height: 48px;
+
+   &:hover,
+   &:focus {
+      outline: none;
+      border-color: $color-green;
+      box-shadow: 0px 0px 0px 1px $color-green;
+   }
+
+   &::placeholder {
+      color: #A1A6B3;
+   }
+}
+
+textarea.form-input {
+   padding-top: 12px;
+   resize: none;
+   height: initial;
+}
+
+.form-label {
+   font-weight: 400;
+   font-size: 16px;
+   margin-bottom: 8px;
+}

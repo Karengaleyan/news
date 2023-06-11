@@ -1,0 +1,16 @@
+@import './scss/abstract/variables';
+
+@import './scss/base/body';
+@import './scss/base/typography';
+@import './scss/base/utils';
+
+@import './scss/components/button';
+@import './scss/components/input';
+@import './scss/components/form';
+@import './scss/components/burger';
+
+@import './scss/layout/header';
+@import './scss/layout/main';
+@import './scss/layout/footer';
+
+@import './scss/media';

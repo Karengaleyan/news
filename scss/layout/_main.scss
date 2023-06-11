@@ -1,0 +1,83 @@
+.main {
+   figcaption {
+      font-size: 16px;
+      color: #717A8D;
+      display: block;
+      padding: 16px 0 24px 0;
+      border-bottom: 1px solid #D0D3D9;
+      margin-bottom: 24px;
+   }
+
+   blockquote {
+      padding: 24px;
+      background-color: $bg-gray;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 20px;
+
+      span {
+         max-width: 760px;
+         display: block;
+      }
+   }
+
+   h2,
+   blockquote,
+   .form {
+      margin: 40px 0;
+   }
+
+   p {
+      margin-bottom: 20px;
+   }
+
+   &__title {
+      margin-bottom: 25px;
+   }
+
+   &__button {
+      text-align: right;
+   }
+
+   &__mail {
+      margin-top: 40px;
+
+      a {
+         color: $color-green;
+         transition: opacity .2s ease-in;
+
+         &:hover {
+            opacity: .8;
+         }
+      }
+   }
+
+   &__back {
+      border-top: 1px solid #D0D3D9;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 700;
+      transition: color .2s ease-in;
+      padding-top: 25px;
+
+      svg {
+         margin-right: 20px;
+         transition: fill .2s ease-in;
+      }
+
+      &:hover {
+         & {
+            color: $color-green;
+         }
+
+         svg {
+            fill: $color-green;
+         }
+      }
+
+      a:hover::before {
+         color: $color-green;
+      }
+   }
+}

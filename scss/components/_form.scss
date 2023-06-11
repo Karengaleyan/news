@@ -1,0 +1,24 @@
+.form {
+   background-color: $bg-gray;
+   padding: 40px;
+
+   &__title {
+      margin-bottom: 24px;
+   }
+
+   &__button {
+      text-align: right;
+      button{
+         display: inline-flex;
+         justify-content: center;
+      }
+   }
+
+   &__row {
+      margin-bottom: -24px;
+
+      &>div {
+         padding-bottom: 24px;
+      }
+   }
+}
